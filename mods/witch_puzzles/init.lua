@@ -8,6 +8,7 @@ minetest.register_node("witch_puzzles:puzzle_node", {
     visual_scale = 0.25,
     paramtype = "light",
     tiles = { "puzzle.png" },
+    stack_max = 1,
     light_source = 12,
     selection_box = {
         type = "fixed",
